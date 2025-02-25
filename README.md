@@ -43,7 +43,7 @@ git clone https://github.com/Denilsoj/safedriver-frontend.git
    ```sh
    docker compose up -d --build
    ```
-4. A API estará disponível em: [localhost:5712](http://localhost:8080)
+4. A API estará disponível em: [localhost:8080](http://localhost:8080)
   
 
 ## Executando o Frontend
@@ -70,9 +70,9 @@ Garanta que as seguintes portas estejam livres:
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** Next.js + React.js
+- **Frontend:**  Next.js, React Query, Zod, TailwindCSS, ShadCN/UI
 - **Estilização:** Tailwind + ShadCN/UI
-- **Backend:** Fastify
-- **Infraestrutura:** Docker
+- **Backend:** Fastify , Prisma, PostgreSQL
+- **Infraestrutura:**  Docker, Git
 - **Armazenamento:** MinIO
 
